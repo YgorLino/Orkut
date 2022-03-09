@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.orkut-caixa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 100vh;
+}
+.orkut-cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.orkut-cell img {
+        left:50%;
+		top:70%;
+		margin-left:-150px;
+		margin-top:-35px;
+        box-shadow: 10px 10px 5px 10px rgb(231, 213, 213);
+    
+}
+.orkut-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: auto;
+    min-height: 34rem;
+    
+}
+.caixas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 120%;
+    padding: 1.5rem 0;
+    border: 1px solid lightgray;
+
+}
+.caixas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 120%;
+    padding: 1.5rem 0;
+    border: 1px solid lightgray;
+    
+}
+.caixas:nth-child(1){
+    min-height: 19rem;
+}
+.caixas:nth-child(2){
+    min-height: 2rem;
+}
+.orkut-logo{
+    height: 3rem;
+}
+.orkut-logo img{
+        align-items: center;
+        justify-items: center; 
+}
+.foto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.foto-perfil img{
+    height: 15;
+}
+.login{
+    color: #0095f6;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.logout{
+    color: #0095f6;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.não-é{
+    color: rgb(160,160,160);
+}
+.Link-azul{
+    color: #0095f6;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    background-image: url(play-store-button.png.png);
+    height: 3rem;
+    height: 2rem;
+}
+.botão{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+    background-image: url(play-store-button.png.png);
+}
+ /* media queries */
